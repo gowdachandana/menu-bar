@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(spex.jpg);
+    background-size: cover;
+    background-position: left;
+    
+    font-family:sans-serif;
+}
+.menu-bar
+{
+    background:white ;
+    text-align: left;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin:15px;
+    padding: 10px;
+    background: blueviolet;
+
+}
+.menu-bar ul li a{
+    text-decoration: none ;
+    color:#fff;
+}
+.active, .menu-bar ul li:hover
+{
+background: blueviolet;
+border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
